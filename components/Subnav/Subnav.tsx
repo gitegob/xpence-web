@@ -1,6 +1,6 @@
 export const Subnav = () => {
   return (
-    <div className="flex mt-2 justify-between items-center border-b-gray-200 border-b-[1px] p-2">
+    <div className="flex mt-2 justify-between items-center border-b-[#EEE4F8] border-b-[1px] p-2">
       <h2 className="text-2xl">All Accounts</h2>
       <div className="flex items-center last:mr-5">
         <input

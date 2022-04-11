@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import { BudgetCard } from "../components/BudgetCard";
 import { Header } from "../components/Header";
 import { LeftCol } from "../components/LeftCol";
 import { MainContent } from "../components/MainContent";
@@ -7,6 +8,7 @@ import { RightCol } from "../components/RightCol";
 import { Sidebar } from "../components/Sidebar";
 import { Subnav } from "../components/Subnav";
 import { Transactions } from "../components/Transactions";
+import { TransactionsGraph } from "../components/TransactionsGraph";
 
 const Home: NextPage = () => {
   return (
@@ -22,7 +24,9 @@ const Home: NextPage = () => {
         <MainContent>
           <Subnav />
           <div className="flex mt-2">
-            <LeftCol>Left</LeftCol>
+            <LeftCol>
+              <BudgetCard />
+            </LeftCol>
             <RightCol>
               <Transactions />
             </RightCol>
