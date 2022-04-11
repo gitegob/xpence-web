@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <Head>
         <title>XPENCE</title>
         <meta name="description" content="Xpence to manage your expences" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/XPENCE.svg" />
       </Head>
       <Header />
       <main className="flex">
